@@ -1,0 +1,38 @@
+{
+  "name": "@enouvo/eslint-config-vue",
+  "version": "0.0.1",
+  "description": "Eslint config for enouvo front end development",
+  "main": "dist/index.js",
+  "files": [
+    "dist"
+  ],
+  "license": "MIT",
+  "author": "Son Tran",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Enouvo/eslint-config-vue"
+  },
+  "dependencies": {
+    "@typescript-eslint/parser": "^5.42.1",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-import-resolver-typescript": "^3.5.2",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-jest": "^27.1.4",
+    "eslint-plugin-jsx-a11y": "^6.6.1",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-sort-keys-fix": "^1.1.2",
+    "eslint-plugin-unused-imports": "^2.0.0",
+    "@typescript-eslint/eslint-plugin": "^5.42.1",
+    "@vue/eslint-config-prettier": "^7.0.0",
+    "@vue/eslint-config-typescript": "^11.0.2",
+    "eslint-plugin-vue": "^9.7.0"
+  },
+  "peerDependencies": {
+    "eslint": "^8.3.0",
+    "prettier": "^2.5.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
