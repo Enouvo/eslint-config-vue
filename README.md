@@ -13,9 +13,9 @@ Example:
 
 File: `.eslintrc.json`
 
-```
+```json
 {
-  "extends": ["@enouvo/eslint-config-vue"]
+  "extends": ["@enouvo/eslint-config-vue"]
 }
 ```
 
